@@ -1148,3 +1148,11 @@
   }
   tool: v1.1.0-dev1/shellchar2.cwl
   doc: "Test that shell directives are quoted."
+
+- job: v1.1.0-dev1/empty-array-job.json
+  output: {
+    "args": []
+  }
+  tool: v1.1.0-dev1/empty-array-input.cwl
+  doc: "Test that empty array input does not add anything to command line"
+
